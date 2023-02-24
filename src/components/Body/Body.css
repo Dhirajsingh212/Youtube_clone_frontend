@@ -1,0 +1,19 @@
+.body_main{
+    display: flex;
+    padding-top: 7vh;
+}
+
+.body_sidebar{
+    width: 8em;
+}
+
+.body_scrollbar{
+    margin-top: 1em;
+}
+
+.body_{
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}

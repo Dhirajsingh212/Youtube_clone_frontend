@@ -1,0 +1,28 @@
+.scrollbar_main{
+    max-width: 180vh;
+}
+
+.scrollbar{
+    padding: 0.5em 0.5em 0.5em 1em;
+    display: flex;
+    overflow-x:scroll;
+    flex-direction:row;
+    gap: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scrollbar p{
+    cursor: pointer;
+    border: 1px solid greyrgba(128, 128, 128, 0.275);
+    background-color: rgba(128, 128, 128, 0.275);
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.scrollbar p:hover{
+    background-color: grey;
+}
+
+.scrollbar::-webkit-scrollbar{
+    display: none;
+}

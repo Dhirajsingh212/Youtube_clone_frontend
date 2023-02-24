@@ -1,0 +1,59 @@
+.header{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0vh 5vh 1vh 5vh ;
+    position: fixed;
+    background-color: rgb(15, 15, 15);
+    width: 95%;
+}
+
+.header_h3{
+    display: flex;
+    gap: 0.8em;
+}
+
+.header_h3_button{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.header_h3_icon{
+    color: red;
+    cursor: pointer;
+}
+
+.header_search_input{
+    background-color: inherit;
+    border: 1px solid #212121;
+    border-radius: 2vh 0 0 2vh;
+    height: 2.5em;
+    width: 40em;
+}
+
+.header_search input:focus{
+    outline: 1px solid rgb(24, 148, 236);
+}
+
+.header_search_button{
+    background-color: #212121;
+    padding: 9px 27px 10px 24px;
+    border-radius: 0 2vh 2vh 0;
+}
+
+.header_search_mic{
+    background-color: #212121;
+    border-radius: 100%;
+    margin-left: 10px;
+    padding: 10px 12.5px 10px 12.5px;
+}
+
+.header_buttons{
+   display: flex;
+   gap: 1.5em;
+   font-size: 1.2em;
+}

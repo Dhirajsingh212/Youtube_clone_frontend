@@ -1,0 +1,25 @@
+.sidebar{
+    position: fixed;
+    padding: 3vh 0 0 3vh ;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    font-family: sans-serif;
+}
+
+.sidebar div button{
+    cursor: pointer;
+}
+
+.sidebar_home{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.sidebar_button{
+    color: white;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    font-size: 1.2em;
+}
